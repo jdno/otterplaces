@@ -1,20 +1,8 @@
-# 🚀 My Personal Template Repository
+# 🗺️ OtterPlaces
 
-This is a [template repository] for my personal projects.
+OtterPlaces is a privacy-focused app that enables users to track places they
+have visited in the past or want to visit in the future.
 
 ## License
 
-Licensed under either of
-
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
-
-at your option.
-
-## Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
-
-[template repository]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+Copyright (c) 2024-present Jan David Nose. All rights reserved.

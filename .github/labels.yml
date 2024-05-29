@@ -14,9 +14,9 @@
 - name: L-github
   color: 34495e
   description: "Tag the GitHub ecosystem"
-- name: L-rust
+- name: L-node
   color: 34495e
-  description: "Tag the Rust ecosystem"
+  description: "Tag the Node ecosystem"
 - name: PR-block
   color: 3498db
   description: "Do not merge the pull request"
