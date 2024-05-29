@@ -9,14 +9,3 @@ workflows:
   - name: github
     jobs:
       - sync-labels
-  - name: json
-    jobs:
-      - style
-  - name: markdown
-    jobs:
-      - lint
-      - style
-  - name: yaml
-    jobs:
-      - lint
-      - style
