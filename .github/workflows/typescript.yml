@@ -29,6 +29,8 @@ jobs:
             **/*.ts
             **/*.tsx
             .github/workflows/typescript.yml
+            package.json
+            package-lock.json
 
       - name: Print changed files
         run: |
