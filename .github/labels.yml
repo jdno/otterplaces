@@ -14,9 +14,6 @@
 - name: L-github
   color: 34495e
   description: "Tag the GitHub ecosystem"
-- name: L-ios
-  color: 34495e
-  description: "Tag the iOS ecosystem"
 - name: L-node
   color: 34495e
   description: "Tag the Node ecosystem"
