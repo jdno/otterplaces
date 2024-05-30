@@ -8,7 +8,9 @@ OtterPlaces is built with [React Native] and [Expo]. To get started, you need to
 install the following tools:
 
 - [Node.js](https://nodejs.org/)
-- [Expo][expo]
+- [Docker](https://www.docker.com/)
+- [Expo CLI][expo]
+- [Supabase CLI](https://supabase.com/docs/guides/cli/local-development)
 
 ### iOS
 
@@ -31,6 +33,18 @@ Clone the repository and install the dependencies:
 
 ```shell
 npm install
+```
+
+Expo runs a development server and can open the app on various devices:
+
+```shell
+npx expo start
+```
+
+In another terminal session, run the [Supabase] backend:
+
+```shell
+supabase start
 ```
 
 [expo]: https://expo.dev/
