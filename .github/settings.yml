@@ -16,8 +16,11 @@ repository:
 branches:
   - name: main
     protection:
-      # Require pull requests, but don't require reviews.
-      required_pull_request_reviews: null
+      required_pull_request_reviews:
+        required_approving_review_count: 0
+        require_code_owner_reviews: true
+        dismiss_stale_reviews: true
+        dismissal_restrictions: {}
       required_status_checks:
         strict: false
         contexts:
