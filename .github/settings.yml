@@ -23,6 +23,9 @@ branches:
         contexts:
           - "Check style"
           - "Lint code"
+      enforce_admins: true
+      required_linear_history: true
+      restrictions: null
 
 labels:
   - name: C-bug
