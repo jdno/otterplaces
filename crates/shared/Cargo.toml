@@ -1,0 +1,27 @@
+[package]
+name = "shared"
+
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+
+[lib]
+crate-type = [
+    "lib", # Used when linking into a Rust binary (e.g. Dioxus)
+    "cdylib", # Used with Swift in iOS apps
+    "staticlib", # Used with JNA in Kotlin/Java apps
+]
+
+[features]
+typegen = ["crux_core/typegen"]
+
+[dependencies]
+crux_core = { workspace = true }
+lazy_static = "1.4.0"
+serde = { workspace = true }
+uniffi = { workspace = true }
+wasm-bindgen = "0.2.92"
+
+[build-dependencies]
+uniffi = { workspace = true, features = ["build"] }

@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "crates/shared",
+    "crates/shared_types",
+    "crates/uniffi-bindgen",
+]
+
+# Opt-in to the new feature resolver introduced in Rust 1.51 and Edition 2021.
+# https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+description = "A mobile app to track places written in Rust"
+repository = "https://github.com/jdno/otterplaces"
+
+[workspace.dependencies]
+anyhow = "1.0.86"
+crux_core = "0.8.0"
+serde = { version = "1.0.203", features = ["derive"] }
+uniffi = "0.27.2"
