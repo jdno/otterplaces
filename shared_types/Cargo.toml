@@ -9,6 +9,6 @@ repository.workspace = true
 [dependencies]
 
 [build-dependencies]
-anyhow.workspace = true
+anyhow = { workspace = true }
 crux_core = { workspace = true, features = ["typegen"] }
 shared = { path = "../shared", features = ["typegen"] }

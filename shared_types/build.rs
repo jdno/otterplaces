@@ -14,10 +14,5 @@ fn main() -> anyhow::Result<()> {
 
     gen.swift("SharedTypes", output_root.join("swift"))?;
 
-    gen.java(
-        "com.otterplaces.otterplaces.shared_types",
-        output_root.join("java"),
-    )?;
-
     Ok(())
 }
